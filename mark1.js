@@ -26,7 +26,7 @@ function Ques(ques1,ans1){
     console.log(chalk.bgGreen("Your score is " + score ));
   }
 }
-  Ques("\nWhich is My Age?\n","22") 
+  Ques("\nWhat is My Age?\n","22") 
   if(score==1){
     console.log(chalk.bgBlack.underline("\nWelcome To Round Two !!"));
   Ques("\nWhich is my favourite color ?\n","green") 
@@ -43,6 +43,6 @@ function Ques(ques1,ans1){
   }
   if(score==5){
     console.log(chalk.bgBlueBright("\nYou Have Cleared All the Rounds , Congratulations !!"));
-    console.log(chalk.underline.BgBlack("You score is " + score));
+    console.log(chalk.red.underline("You score is " + score));
   }
    
